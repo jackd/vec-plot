@@ -1,0 +1,27 @@
+name: vec_plot
+description: Vector plotting for the web.
+# version: 1.0.0
+# homepage: https://www.example.com
+# author: Dominic Jack <email@example.com>
+
+environment:
+  # sdk: '>=2.0.0-dev.66.0 <2.0.0'
+  sdk: '^2.0.0'
+
+dependencies:
+#  path: ^1.4.1
+  vector_math: ^2.0.8
+  threejs_facade:
+    # path: ../threejs-dart-facade
+    git: https://github.com/jackd/threejs-dart-facade
+  charted:
+    # path: ../charted
+    git: https://github.com/jackd/charted
+  # quiver: ^2.0.0
+  quiver: any
+
+
+dev_dependencies:
+  test: ^1.0.0
+  build_runner: ^1.6.1
+  build_web_compilers: ^2.1.4
